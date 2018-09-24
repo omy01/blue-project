@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-color: #121B2A;
+
+}
+
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 20%;
+	float: left;
+	/*border: 1px solid white;*/
+}
+
+.logo img{
+	width: 100%;
+	margin-top: 10px;
+
+}
+
+.menu{
+	width: 70%;
+	float: right;
+	/*border: 1px solid white;*/
+
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+	display: block;
+
+
+}
+
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 20px 10px;
+	margin-top: 30px;
+	color: white;
+	transition: .5s;
+}
+
+.menu ul li a:hover {
+	color: #0074b7;
+}
+
+.menu ul li:last-child a {
+	padding-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+#banner{
+	background-image: url(../image/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+}
+
+.content{
+	margin-top: 250px;
+	margin-bottom: 100px;
+	width: 60%;
+}
+
+.content h2{color: white;
+	font-size: 30px;
+	/*font-weight: 400px;*/
+}
+.content h1{
+	color: #0176b9;
+	font-weight: 700;
+	font-size: 30px;
+}
+.content p{
+	color: white;
+	font-size: 20px;
+	padding-bottom: 40px; 
+}
+.content button{
+	border: none;
+	padding: 15px 40px;
+	font-size: 25px;
+	border-radius: 5px;
+	background-color: white;
+}
+.content button img{
+	width: 30px;
+
+}
+/*banner end*/
+
+/*service start*/
+#service{
+	background-color: #121b26;
+	padding: 50px 0;
+
+}
+
+.single{
+	width: 30%;
+	overflow: hidden;
+	border-right: 1px solid white;
+	/*float: left;*/
+	padding: 30px 15px;
+
+}
+
+.title{
+	overflow: hidden;
+	float: left;
+}
+
+.icon{
+	width: 30%;
+	/*border: 1px solid white;*/
+	float: left;
+}
+
+.icon img{
+	width: 100%;
+}
+
+.icon_content{
+	width: 65%;
+	float: left;
+	/*border: 1px solid white;*/
+	margin-top: 10px;
+}
+.icon_content p{
+	font-size: 30px;
+	color: white;
+}
+.icon_content h1{
+	font-size: 30px;
+	color: white;
+}
+
+.desc p{
+	color: white;
+	
+}
+/*service end*/
